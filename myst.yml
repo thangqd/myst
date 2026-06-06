@@ -1,0 +1,25 @@
+version: 1
+project:
+  title: Article Title
+  # authors:
+  #   - name: Author Name
+  copyright: '2026'
+  exclude:
+    - _build
+    - Thumbs.db
+    - .DS_Store
+    - '**.ipynb_checkpoints'
+  github: opengeos/myst-article-template
+  bibliography:
+    - references.bib
+  toc:
+    - file: article.md
+site:
+  options:
+    logo: logo.png
+    logo_dark: logo.png
+    favicon: fav.ico
+    folders: true
+    style: custom.css
+    # analytics_google: G-XXX
+  template: article-theme
