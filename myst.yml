@@ -9,7 +9,7 @@ project:
     - Thumbs.db
     - .DS_Store
     - '**.ipynb_checkpoints'
-  github: opengeos/myst-article-template
+  github: thangqd/myst
   bibliography:
     - references.bib
   toc:
